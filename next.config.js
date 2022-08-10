@@ -5,7 +5,8 @@ const nextConfig = {
     config.watchOptions = {
       poll: 1000,
       aggregateTimeout: 200,
-    },
+    }
+  },
 }
 
 module.exports = nextConfig
