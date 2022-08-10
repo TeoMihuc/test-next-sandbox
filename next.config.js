@@ -3,7 +3,7 @@ module.exports = {
   webpackDevMiddleware: config => {
     config.watchOptions = {
       poll: 2,
-      aggregateTimeout: 20,
+      aggregateTimeout: 2,
     }
     return config
   },
